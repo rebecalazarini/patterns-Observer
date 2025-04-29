@@ -37,8 +37,7 @@ npx prisma generate
 npx nodemon
 ```
 - No insomnia 
-```bash
 {
   "name": "user",
   "email": "uaser123@gmail.com"
-}```
+}
