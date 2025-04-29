@@ -24,3 +24,15 @@ houver alguma mudança.
 - JavaScript
 - Prisma 
 - Mysql
+
+## Como testar
+- Clone o repositório
+- Intale as seguintes dependencias
+````bash
+cd api 
+npm init -y
+npm i express cors mysql dotenv
+npm install @prisma/client
+npx prisma generate
+npx nodemon
+```
