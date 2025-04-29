@@ -28,16 +28,29 @@ houver alguma mudança.
 ## Como testar
 - Clone o repositório
 - Intale as seguintes dependencias
-````bash
+```bash
 cd api 
-npm init -y
-npm i express cors mysql dotenv
-npm install @prisma/client
-npx prisma generate
+npm i
+```
+- Crie o arquivo . env na raiz do projeto com a seguintes variaveis de a,mbiente:
+````bash
+DATABASE_URL="mysql://root@localhost:3306/users"
+````
+
+- Migre o bando de dados 
+```bash
+npx prisma migrate dev --name init
+```
+- Inicie o servidor 
+```bash
 npx nodemon
 ```
+
 - No insomnia 
 {
   "name": "user",
   "email": "uaser123@gmail.com"
 }
+
+![Imagem1](i1.png)
+![Imagem1](i2.png)
