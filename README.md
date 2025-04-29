@@ -46,6 +46,9 @@ npx prisma migrate dev --name init
 npx nodemon
 ```
 
+
+
+http://localhost:3000/api/users
 - No insomnia 
 {
   "name": "user",
