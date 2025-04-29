@@ -17,3 +17,10 @@ houver alguma mudança.
 - Ele permite que objetos sejam notificados quando outro objeto sofre uma mudança. Deste modo, os objetos podem sempre se manter atualizados quando houver alguma mudança(sem qua haja uma ligação direta entre eles).
  . Entidade 2 (Subject)
 - Ele é o objeto que será observado, é responsável pelas mudanças que o Observer notifica.
+
+## Tecnologias
+- IDE (VsCode)
+- patterns-Observer
+- JavaScript
+- Prisma 
+- Mysql
