@@ -1,3 +1,5 @@
+// src/observer.js
+
 const observers = [];
 
 function addObserver(fn) {

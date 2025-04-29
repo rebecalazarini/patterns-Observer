@@ -1,23 +1,16 @@
-const express = require ('express');
-const cors = require('cors');
-const { addObserver } = require("./src/observer");
-const app = express();
-const port = 6000;
+// server.js
+
+const express = require("express");
 const userRoutes = require("./src/routes");
 
-app.use(cors());
+require("../api/user");  // Carrega os observadores
+
+const app = express();
 app.use(express.json());
 app.use("/api", userRoutes);
 
-// Adicionando observadores simples
-addObserver((user) => {
-    console.log("Usuário criado:", user.name);
-  });
-
-  addObserver((user) => {
-    console.log("Email enviado para:", user.email);
-  });
-
-app.listen(port, () =>{
-    console.log ('respondendo em http://localhost:6000');
-})
+// Iniciar servidor
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
