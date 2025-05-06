@@ -58,14 +58,13 @@ http://localhost:3000/api/users
 ![Imagem1](i1.png)
 ![Imagem1](i2.png)
 
-
-
-github BY: rebecalazarini e CrislaineL
-
-
-
-
-
-
+- 
 apresentação: https://www.canva.com/design/DAGmCqGuGes/VnAOqwT2Ka6MDqQHyx3AHQ/edit
+
+
+# github BY: rebecalazarini e CrislaineL
+
+
+
+
 
